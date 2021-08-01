@@ -1,0 +1,345 @@
+/* .machines-kitchen */
+
+.machines-kitchen{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EBEF;
+}
+.machines-container{
+    width: 90%;
+    height: 480px;
+    /* background-color: #E6EBEF; */
+}
+#firstfloor{
+    height: 15%;
+    width: 100%;
+    /* background-color: rgba(255, 99, 71, 0.297); */
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#secondfloor{
+    height: 70%;
+    width: 100%;
+    /* background-color: rgba(255, 99, 71, 0.552); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+#thirdfloor{
+    height: 15%;
+    width: 100%;
+    /* background-color: rgba(255, 99, 71, 0.297); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#firstfloor h2{
+    display: inline-block;
+    margin: 0;
+    font-weight: 500;
+    font-family: oswald;
+    font-size: x-large;
+    margin-left: 10px;
+}
+.h3s{
+    width: fit-content;
+}
+.h3s h3{
+    display: inline-block;
+    font-family: oswald;
+    font-size: 14px;
+    font-weight: 400;
+    /* letter-spacing: 2px; */
+    margin: 0;
+}
+.h3s img{
+    margin:0px 8px 0px 2px;
+}
+
+
+#secondfloor div{
+    width: 24%;
+    height: 90%;
+    min-width: 230px;
+    /* background-color: forestgreen; */
+    margin: 1px;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#secondfloor img{
+    width: 240px;
+}
+#secondfloor h3{
+    font-family: oswald;
+    font-size: 17px;
+    font-weight: bold;
+}
+#secondfloor h4{
+    font-family: oswald;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#secondfloor h5{
+    font-family: oswald;
+    font-size: 10px;
+    margin-top: 30px;
+}
+#thirdfloor h4{
+    display:block;
+    /* margin: auto; */
+    font-family: oswald;
+    font-size: 16px;
+    font-weight: 500;
+}
+#thirdfloor h4::after{
+    content: "";
+    width: 100%;
+    background-color: #EEFF00;
+    height: 5.3px;
+    display: block;
+}
+.chair{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EBEF;
+}
+.chair-container{
+    background-color: transparent;
+    width: 960px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.graphtext{
+    width: 80%;
+    margin: auto;
+    margin-top: -33px;
+    z-index: 2;
+}
+.photochair{
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    top: -19px;
+}
+.info-chair{
+    /* border: 1px dashed gray; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+}
+.info-chair h4, h2, h3, h5{
+    display: inline-block;
+    margin: 0;
+}
+.info-chair h2{
+    font-family: oswald;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.info-chair h3{
+    font-family: oswald;
+    font-size: 12px;
+    font-weight: bold;
+}
+.info-chair h3::after{
+    content: "";
+    width: 100%;
+    background-color: #EEFF00;
+    height: 2.3px;
+    display: block;
+}
+.info-chair h4{
+    font-family: oswald;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info-chair h5{
+    font-family: Roboto;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+
+/* blog section */
+.blog{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EBEF;
+}
+.blog-container{
+    /* border: 1px dashed gray; */
+    width: 1100px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.div-top {
+    /* border: 1px dashed gray; */
+    height: 10%;
+}
+.div-midle {
+    /* border: 1px dashed gray; */
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.div-bottom {
+    /* border: 1px dashed gray; */
+    height: 10%;
+    position: relative;
+}
+
+.div-top h3{
+    font-family: oswald;
+    font-size: 15px;
+    font-weight: bold;
+}
+.part-left{
+    width: 65%;
+    height: 100%;
+    /* background-color: honeydew; */
+    position: relative;
+    border: 1px solid #8080803b;
+    margin-right: 10px;
+    
+}
+.part-right{
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(203, 252, 203); */
+}
+.right-st{
+    height: 49%;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    flex-direction: row;
+    border: 0.4px solid #8080803b;
+    margin-bottom: 2px;
+} 
+.right-nd{
+    height: 50%;
+    width: 100%;
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: 1px solid #8080803b;
+
+} 
+.part-left img{
+    width: 330px;
+    position: absolute;
+    left: -30px;
+}
+.part-left-div{
+    width: 300px;
+    float: right;
+    margin-right: 28px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part-left div h1{
+    font-family: oswald;
+    text-align: center;
+}
+.part-left div p{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+}
+.part-left div h4{
+    text-align: center;
+    font-family: oswald;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+.part-left div h4::after{
+    content: "";
+    width: 100%;
+    background-color: #EEFF00;
+    height: 2.4px;
+    display: block;
+}
+.right-st{
+    width: 100%;
+    position: relative;
+}
+.right-st div{
+    width: 170px;
+    position: absolute;
+    right: 10px;
+}
+.right-st img{
+    float: left;
+}
+.right-st div h1{
+    font-family: oswald;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+.right-st div p{
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.right-nd div p{
+    font-family: roboto;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.right-nd div h1{
+    font-family: oswald;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+}
+.right-nd div{
+    width: 170px;
+    position: absolute;
+    right: 10px;
+}
+
+.div-bottom img{
+    width: 80px;
+    position: absolute;
+    top:-33px;
+}

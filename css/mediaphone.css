@@ -1,0 +1,240 @@
+@media screen and (max-width:430px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .city {
+        position: absolute;
+        width: 134%;
+        bottom: 0px;
+        left: -121px;
+    }
+    .butt{
+        display:none;
+    }
+    #login{
+        display: none;
+    }
+    #header{
+        justify-content: center;
+        align-items: center;
+    }
+    div[class="container"]{
+        padding:7px 16px 7px 16px;
+        width: 70%;
+    }
+    div[class="intro"]{
+        margin-top: 150px;
+    }
+    img[class="car"]{
+        width: 80%;
+        left: 7%;
+        top: 41%;
+    }
+    .container input{
+        font-size: 14px !important;
+    }
+    #swtich-h4 {
+        font-family: Roboto;
+        margin:auto;
+    }
+    .feat{
+        align-items: center;
+    }
+    .feat h5 {
+        font-family: oswald;
+        font-size: 6pt !important;
+    }
+    #butt-left{
+        width:20px;
+    }
+    #butt-right{
+        width:20px;
+    }
+    #concl-end-img {
+        margin-right: 10px;
+        width: 90px;
+    }
+    #link-svg{
+        width:25px;
+    }
+    div[class="concl"]{
+        align-items: center;
+    }
+    #concl-midl-h4{
+        font-size: 7pt;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+    div[class="link"]{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    section[class="car-type"]{
+        height: 990px;
+        justify-content: center;
+    }
+    div[class="container-car"]{
+        flex-direction: column;
+        align-items: center;
+        z-index: 3;
+        position: initial;
+        width: 348px;
+        /* background-color: aqua; */
+    }
+    div[class="machines-container"]{
+        height: 490px;
+    }
+    #x-form-mini {
+        position: absolute;
+        top: 268px;
+        width: 100%;
+        left: -38%;
+        transform: rotate(290deg);
+    }
+    #box-mini-car{
+        margin-top: 7px;
+        z-index: 2;
+    }
+    #x-div-id{
+        width: 348px;
+        height: 930px;
+        background-color: transparent;
+    }
+    #customers-div{
+        width: 90%;
+    }
+    #customers{
+        height: 1160px;
+        flex-direction: column;
+    }
+    #tanker-img{
+        width: 84%;
+    }
+    #offer{
+        right:10px !important;
+        display: flex;
+        flex-direction: column;
+        width: 95% !important;
+        text-align: center !important;
+    }
+    img[class="x-corner"]{
+        width: 107px;
+        position: absolute;
+        right: -27px;
+        top: -63px;
+    }
+    div[class="bag-div"]{
+        left:10px;
+        margin-bottom: 15px;
+    }
+    #price-h4{
+        bottom: 10px;
+    }
+    #bag-div-h1{
+        font-size: 25px;
+    }
+    #bag-div-p{
+        font-size: 12px;
+    }
+    section[class="machines-kitchen"]{
+        height: 1151px;
+        align-items: initial;
+    }
+    #secondfloor{
+        height: 200% !important;
+        flex-direction: column !important;
+    }
+    #firstfloor h2{
+        font-size: 16px !important;
+    }
+    .h3s h3 {
+        font-size: 9px !important;
+    }
+    .h3s {
+        width: fit-content;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .h3s img {
+        margin: 0px 3px 1px 4px !important;
+    }
+    .graphtext {
+        width: 101% !important;
+    }
+    .div-midle{
+        display: flex;
+        flex-direction: column;
+        height: 1648px;
+    }
+    .photochair {
+        margin: auto;
+        width: 100% !important;
+    }
+    .part-left img {
+        width: 264px;
+        position: absolute;
+        left: -82px;
+        bottom: -40px;
+    }
+    .part-left div h1 {
+        font-family: oswald;
+        text-align: center;
+        font-size: 11pt !important;
+    }
+    .part-left div p {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 13px;
+    }
+    .part-right{
+        flex-direction: column;
+    }
+    .right-st div {
+        width: 49%;
+    }
+    .right-nd div{
+        width:49%;
+    }
+    .part-left div {
+        width: 240px;
+        float: right;
+        margin-right: 8px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nd-foot img {
+        width: 430px;
+        position: absolute;
+        top: -69px;
+        left: -34px;
+    }
+    #right-div {
+        display: none;
+    }
+    #left-div {
+        margin:auto;
+    }
+    .nd-foot{
+        height: 50%;
+    }
+    .footer{
+        height: 875px;
+    }
+    .copyright{
+        position: absolute;
+        left: 21px;
+    }
+    .parent div {
+        width: 46%;
+    }
+    }
+    

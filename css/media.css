@@ -1,0 +1,207 @@
+@media screen and (max-width:864px){
+    header{
+        /* background-color: red !important; */
+    }
+    .landing{
+        height: 600px;
+    }
+    .x-form-mini {
+        position: absolute;
+        top: 106px;
+        width: 85%;
+        left: 13%;
+        right: 21%;
+    }
+    .loging h4{
+        font-size: 7pt;
+    }
+    .butt button{
+        font-size: 7pt;
+    }
+    .intro {
+        margin-top: 29%;
+    }
+    .feat h5{
+        font-size: 7pt;
+    }
+    .switch h4{
+        font-size: 10pt;
+    }
+    .container{
+        padding: 10px 6px 10px 5px;
+        height: 10px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .customers{
+        flex-direction: column;
+        height: 900px;
+        justify-content: space-between;
+    }
+    .customers >div{
+        width: 68%;
+        margin-bottom: 15px;
+    }
+    #offer {
+        width: 219px;
+    }
+    .tanker img {
+        width: 66%;
+        bottom: 22px;
+        left: -9px;
+    }
+    .bag-div{
+        left: 14px;
+    }
+    .bag-div p{
+        font-size: 11px;
+    }
+    .machines-kitchen {
+        height: 1250px;
+    }
+    .machines-container {
+       height: 1310px;
+    }
+    #secondfloor {
+       flex-direction: column;
+    }
+    .div-midle {
+        display: flex;
+        flex-direction: column;
+    }
+    .part-right {
+        display: flex;
+        flex-direction: row;
+    }
+    .part-left {
+        width: 99%;
+    }
+    .blog {
+        height: 680px;
+    }
+    .blog-container{
+        height: 650px;
+    }
+    .div-midle {
+        height: 1648px;
+    }
+    .part-right {
+        width: 99%;
+    }
+    .right-nd {
+        height: 63%;
+    }
+    .right-st {
+        height: 63%;
+    }
+    .right-nd div {
+        width: 127px;
+    }
+    .right-st div {
+        width: 127px;
+    }
+    .right-nd div p{
+        font-size: 12px;
+    }
+    .right-st div p{
+        font-size: 12px;
+    }
+    #left-div{
+        margin-right: -20px;
+    }
+    .nd-foot img {
+        width: 570px;
+        position: absolute;
+        top: -299px;
+        left: -154px;
+    }
+    #right-div{
+        margin-left: 51px;
+    }
+    #gr-info h1 {
+        font-family: oswald;
+        font-size: 82px;
+    }
+    .woman {
+        width: 179px;
+    }
+    .logo {
+        width: 131px;
+    }
+    .x-slant {
+        width: 147px;
+    }
+    #gr-info p {
+        width: 109%; 
+        font-size: 12px;
+    }
+    .parent div {
+        width: 35%;
+        text-align: center; 
+    }
+    .copyright {
+        width: 308px;
+        height: 80px;
+    }
+    .copyright p {
+        color: white;
+        width: 245px;
+        margin: auto;
+        margin-top: 19px;
+    }
+    .second h2 {
+        font-family: oswald;
+        font-size: 23px;
+    }
+    .first h2 {
+        font-size: 18px;
+    }
+    #main-subs p {
+        font-size: 12px;
+    }
+    .footer {
+        height: 844px;
+    }
+    #mail input {
+        font-size: 7px;
+    }
+    .second >p {
+        font-size: 12px;
+    }
+    #gr-info h3 {
+        font-size: 13px;
+    }
+    .buttcontact {
+        font-family: oswald;
+        padding: 5px 18px;
+    }
+    .buttproduct {
+        padding: 5px 16px;
+    }
+    .divlogo img{
+        width: 110px;
+    }
+    .login h4 {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .concl-midl h4 {
+        font-family: oswald;
+        font-size: 8pt;
+    }
+    .right-nd img{
+        width: 50%;
+        height: 80%;
+    }
+    .right-st img{
+        width: 50%;
+        height: 80%;
+    }
+    .st-foot img {
+        width: 1031px;
+        height: 30%;
+    }
+    
+}
